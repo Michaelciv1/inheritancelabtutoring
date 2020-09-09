@@ -3,6 +3,7 @@ import java.util.*;
 public class main {
 
 	public static void main(String[] args) {
+		new GUI();
 		ArrayList<Employee> employeeList = new ArrayList<Employee>();
 		
 		Government policeman1 = new Government("John", "Policeman", "Public Sector", "Mountain View");
