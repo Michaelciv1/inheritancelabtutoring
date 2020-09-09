@@ -3,7 +3,7 @@ import java.util.*;
 public class main {
 
 	public static void main(String[] args) {
-		new GUI();
+		GUI gui = new GUI();
 		ArrayList<Employee> employeeList = new ArrayList<Employee>();
 		
 		Government policeman1 = new Government("John", "Policeman", "Public Sector", "Mountain View");
@@ -24,8 +24,19 @@ public class main {
 		employeeList.add(banker1);
 		employeeList.add(banker2);
 		
-		System.out.println(banker2.toString());
+		gui.displayElement(policeman1.toString());
+		gui.displayElement(policeman2.toString());
+		gui.displayElement(engineer1.toString());
+		gui.displayElement(engineer2.toString());
+		gui.displayElement(teacher1.toString());
+		gui.displayElement(teacher2.toString());
+		gui.displayElement(banker1.toString());
+		gui.displayElement(banker2.toString());
 
+
+
+		
+		
 		
 	}
 
