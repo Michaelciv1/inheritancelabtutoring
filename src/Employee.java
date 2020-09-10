@@ -12,6 +12,10 @@ public abstract class Employee {
 	
 	public abstract String getEmployer(); 
 	
+	public String getJobTitle() {
+		return jobTitle;
+	}
+	
 	public String getName() {
 		return name;
 	}
