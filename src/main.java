@@ -24,14 +24,14 @@ public class main {
 		employeeList.add(banker1);
 		employeeList.add(banker2);
 		
-		gui.displayElement(policeman1.toString());
-		gui.displayElement(policeman2.toString());
-		gui.displayElement(engineer1.toString());
-		gui.displayElement(engineer2.toString());
-		gui.displayElement(teacher1.toString());
-		gui.displayElement(teacher2.toString());
-		gui.displayElement(banker1.toString());
-		gui.displayElement(banker2.toString());
+		gui.displayAllElements(policeman1.toString());
+		gui.displayAllElements(policeman2.toString());
+		gui.displayAllElements(engineer1.toString());
+		gui.displayAllElements(engineer2.toString());
+		gui.displayAllElements(teacher1.toString());
+		gui.displayAllElements(teacher2.toString());
+		gui.displayAllElements(banker1.toString());
+		gui.displayAllElements(banker2.toString());
 
 
 
